@@ -4,22 +4,22 @@ cask "milestoned-plan-dag" do
 
   on_macos do
     on_intel do
-      sha256 "8431ff3f663db8a0d894f208c5ded463d42052b13d8f46f1fe131eb1c5a6a28c"
+      sha256 "be2b77854066d3d16147e548d437a56576543e82e8fcf9612090747e84c2acdf"
       url "https://github.com/kentra-io/milestoned-plan-dag/releases/download/v#{version}/milestoned-plan-dag_#{version}_darwin_amd64.tar.gz"
     end
     on_arm do
-      sha256 "99d1eca44324293a6e94a9fe3ecf655538d14d74a18b3530556d9332cbadb1ea"
+      sha256 "736edcce5587bfceba8d52e6788f980a6303c888a60f535d8f8c7bec6f0d002c"
       url "https://github.com/kentra-io/milestoned-plan-dag/releases/download/v#{version}/milestoned-plan-dag_#{version}_darwin_arm64.tar.gz"
     end
   end
 
   on_linux do
     on_intel do
-      sha256 "832bfcb16b2fdfff1251cbcf0c4ee19efec93589668acd221b9fd9a02d876730"
+      sha256 "4fdcfca935747418abd517ca71a70be8d634641b047ea6ec2c3760618a2ec507"
       url "https://github.com/kentra-io/milestoned-plan-dag/releases/download/v#{version}/milestoned-plan-dag_#{version}_linux_amd64.tar.gz"
     end
     on_arm do
-      sha256 "31109d7bd65aff06f5e9ce852ecdfe03965cb44d75fa43f2c2ea4ff92dfef3c2"
+      sha256 "e337b0674d318febfa6601159f3266142d7ee62f2cc6b48d18f1151743cb1de8"
       url "https://github.com/kentra-io/milestoned-plan-dag/releases/download/v#{version}/milestoned-plan-dag_#{version}_linux_arm64.tar.gz"
     end
   end
